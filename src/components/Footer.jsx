@@ -43,7 +43,7 @@ function Footer() {
           <h3>Connect</h3>
 
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/faiza-sajjad-04840b251"
             target="_blank"
             rel="noreferrer"
           >
