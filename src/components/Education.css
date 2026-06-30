@@ -1,0 +1,122 @@
+.education-section {
+  padding: 70px 8%;
+  background: #07111f;
+  color: white;
+}
+.section-subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: -35px auto 50px;
+  color: #a8b2d1;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #64ffda;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.education-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(100, 255, 218, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(100, 255, 218, 0.08);
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  border-radius: 16px;
+}
+
+
+.education-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.education-content h3 {
+  font-size: 1.5rem;
+  color: #64ffda;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.education-content h4 {
+  font-size: 1.3rem;
+  color: #7ee7ff;
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+.location {
+  color: #8a94a6;
+}
+
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #64ffda;
+  box-shadow: 0 0 20px #64ffda;
+  margin-top: 15px;
+}
+
+.year-badge {
+  border: 1px solid #64ffda;
+  padding: 12px 22px;
+  border-radius: 30px;
+  color: #64ffda;
+  font-weight: 600;
+}
+
+.education-description {
+  color: #c8d0df;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  border: 1px solid rgba(100, 255, 218, 0.5);
+  background: rgba(100, 255, 218, 0.08);
+  color: #d9ffff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .education-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .timeline-dot {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-content h3 {
+    font-size: 1rem;
+  }
+}
