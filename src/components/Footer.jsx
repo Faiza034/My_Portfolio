@@ -11,7 +11,6 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Left */}
 
         <div className="footer-brand">
           <h2>Faiza Sajjad</h2>
@@ -26,8 +25,6 @@ function Footer() {
           </span>
         </div>
 
-        {/* Center */}
-
         <div className="footer-contact">
           <h3>Get In Touch</h3>
 
@@ -38,11 +35,9 @@ function Footer() {
 
           <p>
             <FaMapMarkerAlt />
-            Lalamusa,Punjab, Pakistan
+            Lalamusa, Punjab, Pakistan
           </p>
         </div>
-
-        {/* Right */}
 
         <div className="footer-links">
           <h3>Connect</h3>
@@ -62,22 +57,21 @@ function Footer() {
             rel="noreferrer"
           >
             <FaGithub />
-            GitHub Repository
+            GitHub Profile
           </a>
         </div>
 
-        {/* Bottom */}
+      </div>
 
-        <div className="footer-bottom">
-          <p>
-            © {new Date().getFullYear()} Faiza Sajjad.
-            All rights reserved.
-          </p>
+      <div className="footer-bottom">
+        <p>
+          © {new Date().getFullYear()} Faiza Sajjad.
+          All rights reserved.
+        </p>
 
-          <span>
-            Built with React, Framer Motion & CSS
-          </span>
-        </div>
+        <span>
+          Built with React, Framer Motion & CSS
+        </span>
       </div>
     </footer>
   );
