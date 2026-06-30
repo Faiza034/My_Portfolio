@@ -33,12 +33,12 @@ function Footer() {
 
           <p>
             <FaEnvelope />
-            faizasajjad@example.com
+            faizasajjad112@gmail.com
           </p>
 
           <p>
             <FaMapMarkerAlt />
-            Punjab, Pakistan
+            Lalamusa,Punjab, Pakistan
           </p>
         </div>
 
