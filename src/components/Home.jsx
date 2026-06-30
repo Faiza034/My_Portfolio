@@ -46,18 +46,15 @@ const Home = () => {
           React, Angular and modern technologies. Passionate
           about creating seamless digital experiences.
         </p>
-
         <div className="hero-buttons">
-          <button href="#projects" className="primary-btn">
+          <a href="#projects" className="primary-btn">
             Explore My Work ↓
-          </button>
+          </a>
 
           <a href="/resume.pdf" download className="secondary-btn">
             Download Resume
           </a>
-
         </div>
-
       </div>
     </section >
   );
